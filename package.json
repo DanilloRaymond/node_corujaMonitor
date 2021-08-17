@@ -1,0 +1,36 @@
+{
+  "name": "node_corujaMonitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/server.js",
+  "scripts": {
+    "dev": "nodemon ./bin/server.js",
+    "start": "node ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanilloRaymond/node_corujaMonitor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanilloRaymond/node_corujaMonitor/issues"
+  },
+  "homepage": "https://github.com/DanilloRaymond/node_corujaMonitor#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  }
+}
